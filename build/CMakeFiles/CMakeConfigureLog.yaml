@@ -39,8 +39,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-Swp0oC"
-      binary: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-Swp0oC"
+      source: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-YG4h1N"
+      binary: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-YG4h1N"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_EXE_LINKER_FLAGS: ""
@@ -48,9 +48,9 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-Swp0oC
+        Change Dir: /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-YG4h1N
         
-        Run Build Command(s):/usr/bin/ninja -v cmTC_a8d56 && [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/usr/bin/ninja -v cmTC_98c48 && [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         clang version 15.0.7
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -63,7 +63,7 @@ events:
         Selected multilib: .;@m64
         Found CUDA installation: /opt/cuda, version 
          (in-process)
-         "/usr/bin/clang-15" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-Swp0oC -resource-dir /usr/lib/clang/15.0.7 -dependency-file CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward -internal-isystem /usr/lib/clang/15.0.7/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-Swp0oC -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/bin/clang-15" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-YG4h1N -resource-dir /usr/lib/clang/15.0.7 -dependency-file CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward -internal-isystem /usr/lib/clang/15.0.7/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-YG4h1N -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 15.0.7 based upon LLVM 15.0.7 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -76,7 +76,7 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        [2/2] : && /usr/bin/clang++  -v CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a8d56   && :
+        [2/2] : && /usr/bin/clang++  -v CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98c48   && :
         clang version 15.0.7
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -88,7 +88,7 @@ events:
         Candidate multilib: 32;@m32
         Selected multilib: .;@m64
         Found CUDA installation: /opt/cuda, version 
-         "/usr/bin/ld" -pie --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a8d56 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crtn.o
+         "/usr/bin/ld" -pie --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98c48 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crtn.o
         
       exitCode: 0
   -
@@ -126,9 +126,9 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-Swp0oC]
+        ignore line: [Change Dir: /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-YG4h1N]
         ignore line: []
-        ignore line: [Run Build Command(s):/usr/bin/ninja -v cmTC_a8d56 && [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/usr/bin/ninja -v cmTC_98c48 && [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang version 15.0.7]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -144,7 +144,7 @@ events:
         ignore line: [@m64]
         ignore line: [Found CUDA installation: /opt/cuda  version ]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/bin/clang-15" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-Swp0oC -resource-dir /usr/lib/clang/15.0.7 -dependency-file CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward -internal-isystem /usr/lib/clang/15.0.7/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-Swp0oC -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/bin/clang-15" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -mrelax-all --mrelax-relocations -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -mllvm -treat-scalable-fixed-error-as-warning -debugger-tuning=gdb -v -fcoverage-compilation-dir=/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-YG4h1N -resource-dir /usr/lib/clang/15.0.7 -dependency-file CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1 -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/x86_64-pc-linux-gnu -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../include/c++/12.2.1/backward -internal-isystem /usr/lib/clang/15.0.7/include -internal-isystem /usr/local/include -internal-isystem /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -fdebug-compilation-dir=/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-YG4h1N -ferror-limit 19 -stack-protector 2 -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/local/share/cmake-3.26/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 15.0.7 based upon LLVM 15.0.7 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../x86_64-pc-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -157,7 +157,7 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/clang++  -v CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a8d56   && :]
+        ignore line: [[2/2] : && /usr/bin/clang++  -v CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98c48   && :]
         ignore line: [clang version 15.0.7]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -172,7 +172,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [Found CUDA installation: /opt/cuda  version ]
-        link line: [ "/usr/bin/ld" -pie --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a8d56 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crtn.o]
+        link line: [ "/usr/bin/ld" -pie --build-id --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98c48 /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/Scrt1.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crti.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1 -L/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/lib -L/usr/lib CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtendS.o /usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [-pie] ==> ignore
           arg [--build-id] ==> ignore
@@ -182,7 +182,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a8d56] ==> ignore
+          arg [cmTC_98c48] ==> ignore
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/Scrt1.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/Scrt1.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crti.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/../../../../lib64/crti.o]
           arg [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o] ==> obj [/usr/bin/../lib64/gcc/x86_64-pc-linux-gnu/12.2.1/crtbeginS.o]
@@ -192,7 +192,7 @@ events:
           arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
-          arg [CMakeFiles/cmTC_a8d56.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_98c48.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -219,6 +219,10 @@ events:
         implicit fwks: []
       
       
+...
+
+---
+events:
   -
     kind: "try_compile-v1"
     backtrace:
@@ -234,8 +238,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-ZzmQ78"
-      binary: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-ZzmQ78"
+      source: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-2Vbwcw"
+      binary: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-2Vbwcw"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -245,10 +249,46 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-ZzmQ78
+        Change Dir: /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-2Vbwcw
         
-        Run Build Command(s):/usr/bin/ninja -v cmTC_f15c4 && [1/2] /usr/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -MD -MT CMakeFiles/cmTC_f15c4.dir/src.cxx.o -MF CMakeFiles/cmTC_f15c4.dir/src.cxx.o.d -o CMakeFiles/cmTC_f15c4.dir/src.cxx.o -c /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-ZzmQ78/src.cxx
-        [2/2] : && /usr/bin/clang++   CMakeFiles/cmTC_f15c4.dir/src.cxx.o -o cmTC_f15c4   && :
+        Run Build Command(s):/usr/bin/ninja -v cmTC_c5bc3 && [1/2] /usr/bin/clang++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -MD -MT CMakeFiles/cmTC_c5bc3.dir/src.cxx.o -MF CMakeFiles/cmTC_c5bc3.dir/src.cxx.o.d -o CMakeFiles/cmTC_c5bc3.dir/src.cxx.o -c /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-2Vbwcw/src.cxx
+        [2/2] : && /usr/bin/clang++   CMakeFiles/cmTC_c5bc3.dir/src.cxx.o -o cmTC_c5bc3   && :
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/local/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/usr/lib/cmake/Qt6/FindWrapAtomic.cmake:33 (check_cxx_source_compiles)"
+      - "/usr/local/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/usr/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:33 (find_dependency)"
+      - "/usr/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/lib/cmake/Qt6Core/Qt6CoreConfig.cmake:50 (include)"
+      - "/usr/lib/cmake/Qt6/Qt6Config.cmake:167 (find_package)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-x8Uxmb"
+      binary: "/home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-x8Uxmb"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/cmake/Qt6;/usr/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-x8Uxmb
+        
+        Run Build Command(s):/usr/bin/ninja -v cmTC_0073c && [1/2] /usr/bin/clang++ -DHAVE_STDATOMIC  -std=gnu++17 -MD -MT CMakeFiles/cmTC_0073c.dir/src.cxx.o -MF CMakeFiles/cmTC_0073c.dir/src.cxx.o.d -o CMakeFiles/cmTC_0073c.dir/src.cxx.o -c /home/cui/code/qt/qt_serial/build/CMakeFiles/CMakeScratch/TryCompile-x8Uxmb/src.cxx
+        [2/2] : && /usr/bin/clang++   CMakeFiles/cmTC_0073c.dir/src.cxx.o -o cmTC_0073c   && :
         
       exitCode: 0
 ...

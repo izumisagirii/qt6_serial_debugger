@@ -1,11 +1,12 @@
 #include "mainwindow.h"
-
 #include <QApplication>
+#include <qicon.h>
 
-int main(int argc, char *argv[])
-{
-    QApplication a(argc, argv);
-    MainWindow w;
-    w.show();
-    return a.exec();
+auto main(int argc, char *argv[]) -> int {
+  QApplication a(argc, argv);
+  MainWindow w;
+  w.setWindowTitle("Protocol Debugger");
+  w.setWindowIcon(QIcon("./icon.ico"));
+  w.show();
+  return QApplication::exec();
 }
