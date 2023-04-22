@@ -1,4 +1,5 @@
 #include "serialBase.h"
+#include <qobject.h>
 
 SerialBase::SerialBase(QObject *parent) : QSerialPort(parent) {
   this->timerSerial = new QTimer(this);
@@ -27,11 +28,15 @@ void SerialBase::baseReceiveData() {
       }
       if (pointer == this->stopBytes.length()) {
         baseEmitData();
-        return;
       }
     }
-  }
-  if (this->policy & serialPolicy::WaitTime) {
+  } else if (this->policy == serialPolicy::WaitTime) {
+    this->buffer.append(temp);
+    timerSerial->start();
+  } else if (this->policy == serialPolicy::None) {
+    this->buffer.append(temp);
+    baseEmitData();
+  } else {
     timerSerial->start();
   }
 };
@@ -54,3 +59,8 @@ void SerialBase::setStopBytes(QByteArray stopBytes) {
   this->pointer = 0;
 }
 void SerialBase::setStopPolicy(serialPolicy stopIf) { this->policy = stopIf; }
+
+// void SerialBase::moveToThread(QThread *thread) {
+//   this->timerSerial->moveToThread(thread);
+//   static_cast<QObject &>(*this).moveToThread(thread);
+// }

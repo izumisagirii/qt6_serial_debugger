@@ -20,6 +20,8 @@ public:
   void setWaitTime(int msec);
   void setStopBytes(QByteArray stopBytes);
   void setStopPolicy(serialPolicy stopIf);
+  // 重载moveTT函数，暂时解决问题
+  // void moveToThread(QThread *thread);
 signals:
   void baseDataReady(QByteArray result);
 
