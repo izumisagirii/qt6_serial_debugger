@@ -74,5 +74,5 @@ CMakeLists.txt.user*
 
 #build folder
 # --------
-build/*
-bin/*
+build/
+bin/
